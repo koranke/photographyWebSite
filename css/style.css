@@ -1,0 +1,56 @@
+  
+  /* Use a grid layout for the content */
+  #content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Use a border and a shadow effect for the images */
+  #content img {
+    width: 100%;
+    height: auto;
+    border: solid 5px #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  }
+
+  /* Use a flex layout for the content */
+  #slidecontent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    /* Hide the overflow */
+    /* overflow: hidden; */
+  }
+
+  /* Add some CSS rules for the slideshow */
+  #slideshow {
+    /* Use relative positioning */
+    position: relative;
+    /* Use the same width and height as the images */
+    width: 80%;
+    height: auto;
+  }
+
+  /* Add some CSS rules for the slide */
+  .slide {
+    /* Use absolute positioning */
+    position: absolute;
+    /* Use the same width and height as the slideshow */
+    width: 100%;
+    height: auto;
+    /* Use a border and a shadow effect for the images */
+    border: solid 5px #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    /* Use a transition effect for the opacity */
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+    object-fit: cover;
+  }
+
+  /* Show only the first slide by default */
+  .slide:first-child {
+    opacity: 1;
+  }

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>GoMotoFoto: Image Closeup</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+              <style>
+            img {
+                width: 100%;
+                height: auto;
+                /* object-fit: cover; */
+            }
+        </style>    
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">GoMotoFoto</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item" active>
+                        <button class="nav-link" onclick="history.back()">Back</button>
+                    </li>
+                </ul>
+            </div>
+          </nav>
+          <div id="outterBox">
+            <div id="innerBox">
+                <img id="image" src="">
+            </div>
+        </div>
+        <script src="js/setImage.js"></script>  
+    </body>
+</html>
