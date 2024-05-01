@@ -16,7 +16,7 @@ function changeSlide() {
   } else {
     currentSlide = 0;
   }
-  setTimeout(changeSlide, 8000);
+  setTimeout(changeSlide, 7000);
 }
   
 // Call this function when the window loads
