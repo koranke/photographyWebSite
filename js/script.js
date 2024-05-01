@@ -11,7 +11,7 @@ function changeSlide() {
     slides[slides.length - 1].style.opacity = "0";
   }
 
-  if (currentSlide < slides.length -1) {
+  if (currentSlide < slides.length - 1) {
     currentSlide += 1;
   } else {
     currentSlide = 0;
