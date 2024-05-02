@@ -29,7 +29,7 @@
   @media screen and (max-width: 600px){
     #slideshow {
       position: relative;
-      width: 95%;
+      width: 100%;
       height: auto;
     } 
   }
