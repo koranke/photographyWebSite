@@ -25,13 +25,21 @@
     /* overflow: hidden; */
   }
 
-  /* Add some CSS rules for the slideshow */
-  #slideshow {
-    /* Use relative positioning */
-    position: relative;
-    /* Use the same width and height as the images */
-    width: 80%;
-    height: auto;
+
+  @media screen and (max-width: 600px){
+    #slideshow {
+      position: relative;
+      width: 95%;
+      height: auto;
+    } 
+  }
+
+  @media screen and (min-width: 600px){
+    #slideshow {
+      position: relative;
+      width: 80%;
+      height: auto;
+    }      
   }
 
   /* Add some CSS rules for the slide */
